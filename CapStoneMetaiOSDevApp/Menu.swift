@@ -27,30 +27,8 @@ struct MenuScreen: View {
 
     var body: some View {
         VStack {
-            VStack {
-                HStack {
-                    VStack {
-                        Text("Little Lemon")
-                            .font(.largeTitle)
-                            .padding(.top)
-                        Text("Chicago")
-                            .font(.title2)
-                            .foregroundColor(.gray)
-
-                        Text(
-                            "We are a family-owned Mediterranean restaurant, focused on traditional recipes served with a modern twist."
-                        )
-                        .multilineTextAlignment(.center)
-                        .padding()
-                    }
-                    Image("Hero")
-                        .resizable()
-                        .aspectRatio(contentMode: .fill)
-                        .frame(width: 100, height: 100)
-                        .padding(10)
-
-                }
-
+            VStack{
+                Hero()
                 TextField("Search menu", text: $searchText)
                     .textFieldStyle(RoundedBorderTextFieldStyle())
                     .padding(.horizontal)

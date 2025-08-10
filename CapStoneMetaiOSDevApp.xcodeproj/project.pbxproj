@@ -21,6 +21,7 @@
 		467D85EE2E48E81C004DC25C /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467D85ED2E48E81C004DC25C /* MenuItem.swift */; };
 		467D85F02E48E835004DC25C /* MenuList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467D85EF2E48E835004DC25C /* MenuList.swift */; };
 		467D85F32E48F827004DC25C /* ExampleDatabase.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 467D85F12E48F827004DC25C /* ExampleDatabase.xcdatamodeld */; };
+		467D85F52E492238004DC25C /* Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467D85F42E492238004DC25C /* Hero.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		467D85ED2E48E81C004DC25C /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
 		467D85EF2E48E835004DC25C /* MenuList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuList.swift; sourceTree = "<group>"; };
 		467D85F22E48F827004DC25C /* ExampleDatabase.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ExampleDatabase.xcdatamodel; sourceTree = "<group>"; };
+		467D85F42E492238004DC25C /* Hero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hero.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 				467D85ED2E48E81C004DC25C /* MenuItem.swift */,
 				467D85E32E48D9D9004DC25C /* Menu.swift */,
 				467D85E12E48D939004DC25C /* Home.swift */,
+				467D85F42E492238004DC25C /* Hero.swift */,
 				467D85E72E48E7D5004DC25C /* FetchedObjects.swift */,
 				467D85E82E48E7D5004DC25C /* Persistence.swift */,
 				41AECB6A2906D638007983FF /* Assets.xcassets */,
@@ -177,6 +180,7 @@
 				41AECB672906D62E007983FF /* CapStoneMetaiOSDevApp.swift in Sources */,
 				467D85E42E48D9D9004DC25C /* Menu.swift in Sources */,
 				467D85E92E48E7D6004DC25C /* Persistence.swift in Sources */,
+				467D85F52E492238004DC25C /* Hero.swift in Sources */,
 				467D85EA2E48E7D6004DC25C /* FetchedObjects.swift in Sources */,
 				467D85EE2E48E81C004DC25C /* MenuItem.swift in Sources */,
 			);
